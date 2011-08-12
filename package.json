@@ -4,10 +4,11 @@
   "description": "A cli unit testing library",
   "version": "0.0.1",
   "repository": {
+    "type": "git",
     "url": "https://github.com/shekhei/minimal-test"
   },
   "engines": {
-    "node": "~v0.4.10"
+    "node": "~0.4.10"
   },
   "main": "./lib/minimal-test.js",
   "directories": {

@@ -3,12 +3,39 @@ Minimal Testing
 
 It's always been a pain to type a lot to get something done, and when it comes to unit testing(very boring stuff IMO :P) it is even more painful when you cant get it done with typing as little as possible.
 
+It is quite normal that the syntax would look like this
+
+```javascript
+var test = require('someunittest');
+
+scenario('test')
+  .test("abc", function(test){ test.assert(true); })
+  .test("abc2", function(test){test.assert(false);})
+  .run();
+```
+
+in this, it would look like this
+
+```javascript
+var scnario = require('minimal-test');
+
+scenario('test')
+  ("abc", function(test){ test(true); })
+  ("abc2", function(test){ test(false); })
+```
+
 You can run it by just executing it like any other nodejs files
 
-  node unit_test/test.js
+```
+node unit_test/test.js
+```
 
-Example
+Usage
 --------
+
+```
+npm install minimal-test
+```
 
 ```javascript
 var scenario = require('minimal-test');
@@ -30,12 +57,12 @@ scenario("Lets just test some simple things")
 ```
 
 ### Output ###
-
+```
 Scenario: Lets just test some simple things
-  Lets test if 1 is a number <span style="color:green;">passed</span>
-  Lets test if 'a' is a number <span style="color:red;">failed</span>
-  Lets test if a file exists? this is async <span style="color:green;">passed</span>
-
+  Lets test if 1 is a number passed
+  Lets test if 'a' is a number failed
+  Lets test if a file exists? this is async passed
+```
 
 Note
 ----
