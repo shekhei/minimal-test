@@ -1,10 +1,10 @@
 {
   "author": "Wong Shek Hei Felix <shekhei@gmail.com> (www.shekhei.com)",
-  "name": "unittester",
+  "name": "minimal test",
   "description": "A cli unit testing library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/shekhei/minimal-tester"
   },
   "engines": {
     "node": "~v0.4.10"
