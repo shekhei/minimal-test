@@ -46,10 +46,13 @@ scenario("Testing type helpers")
     t.is.a.array(1);
   })
 
-scenario("Testing async code works")
+scenario("Testing the rest")
   .async("if random.txt exists async(doesnt exist, so should fail)", function(t){
     path.exists(require('path').resolve('./unit_test/file.txt'),function(exists){
       t(exists);
       t.done();
     });
+  })
+  ("Test that assert message gets shown", function(t){
+    t(false, "This has to be shown");
   })
