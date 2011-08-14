@@ -64,6 +64,11 @@ Scenario: Lets just test some simple things
   Lets test if a file exists? this is async passed
 ```
 
+Helpers
+-------
+
+There are a bunch of helpers that comes along with the test object that is passed on to the testcase functions, [check out the helper doc](https://github.com/shekhei/minimal-test/blob/master/docs/test-helpers.md)
+
 Note
 ----
 

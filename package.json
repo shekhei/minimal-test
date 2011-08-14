@@ -2,7 +2,7 @@
   "author": "Wong Shek Hei Felix <shekhei@gmail.com> (www.shekhei.com)",
   "name": "minimal-test",
   "description": "A cli unit testing library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/shekhei/minimal-test"
@@ -12,7 +12,8 @@
   },
   "main": "./lib/minimal-test.js",
   "directories": {
-    "lib": "./lib"
+    "lib": "./lib",
+    "doc": "./docs"
   },
   "bugs": { 
     "web": "https://github.com/shekhei/minimal-test/issues"
