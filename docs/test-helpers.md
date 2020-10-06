@@ -11,12 +11,12 @@ scenario("A scenario")
 
 The parameter test comes with a couple of assertion helpers, below are a list of them
 
-Comparision helpers
+Comparison helpers
 -------------------
 
 ###test.is###
 
-test.is accepts two parameters for comparision, it is a strict comparison (below is an example)
+test.is accepts two parameters for comparison, it is a strict comparison (below is an example)
 
 ```javascript
 test.is(1,1); // pass
@@ -25,7 +25,7 @@ test.is(1, new Number(1)); // fails
 
 ###test.equals###
 
-test.equals accepts two parameters for comparision, it is a non-strict comparison (below is an example)
+test.equals accepts two parameters for comparison, it is a non-strict comparison (below is an example)
 
 ```javascript
 test.equals(1,1); // pass
